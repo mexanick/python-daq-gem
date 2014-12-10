@@ -1,0 +1,6 @@
+[?1049h[1;24r(B[m[4l[?7h[39;49mTraceback (most recent call last):
+  File "biais_front_end.py", line 5, in <module>
+    window = Window("Bias a VFAT2's front-end")
+  File "/home/mdalchen/glib_testing_scripts/GLIB_SW/dacreading/src/system/window.py", line 18, in __init__
+    curses.cbreak()
+_curses.error: cbreak() returned ERR
